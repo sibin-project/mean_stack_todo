@@ -1,7 +1,52 @@
-backend/env
-backend/node_modules
-frontend/node_modules
-frontend/environments
+##########################
+# Node Backend
+##########################
+backend/node_modules/
+backend/.env
+backend/env/
+backend/*.env
+backend/npm-debug.log
+backend/yarn-error.log
+backend/package-lock.json
+
+##########################
+# Angular Frontend
+##########################
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/cache/
+frontend/.env
+frontend/env/
+frontend/*.env
+
+# Angular build artifacts
+frontend/.angular/
+frontend/.firebase/
+frontend/*.log
+
+# Environment & Firebase configs
 frontend/firebase.json
-frontend/env
 frontend/.firebaserc
+frontend/.env
+frontend/src/environments/*.ts
+
+##########################
+# General
+##########################
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Git
+.git/
